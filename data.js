@@ -1,0 +1,21 @@
+const books = [
+  { id: 1, title: "Война и мир", author: "Л. Н. Толстой", year: 1869, genre: "Роман", available: true, rating: 4.6 },
+  { id: 2, title: "Мастер и Маргарита", author: "М. А. Булгаков", year: 1967, genre: "Роман", available: true, rating: 4.8 },
+  { id: 3, title: "Солярис", author: "С. Лем", year: 1961, genre: "Фантастика", available: false, rating: 4.3 },
+  { id: 4, title: "Понедельник начинается в субботу", author: "А. и Б. Стругацкие", year: 1965, genre: "Фантастика", available: true, rating: 4.5 },
+  { id: 5, title: "Собачье сердце", author: "М. А. Булгаков", year: 1925, genre: "Повесть", available: true, rating: 4.4 },
+  { id: 6, title: "Гиперион", author: "Д. Симмонс", year: 1989, genre: "Фантастика", available: false, rating: 4.2 }
+];
+
+const users = [
+  { id: 1, login: "anna", name: "Анна", password: "1234" },
+  { id: 2, login: "boris", name: "Борис", password: "qwerty" }
+];
+
+const loans = [
+  { id: 1, userId: 1, bookId: 1, takenAt: "2026-09-01", returnedAt: "2026-09-20", rating: 5 },
+  { id: 2, userId: 1, bookId: 5, takenAt: "2026-09-25", returnedAt: "2026-10-10", rating: 4 },
+  { id: 3, userId: 1, bookId: 2, takenAt: "2026-11-02", returnedAt: null, rating: null },
+  { id: 4, userId: 1, bookId: 3, takenAt: "2026-11-10", returnedAt: null, rating: null },
+  { id: 5, userId: 2, bookId: 6, takenAt: "2026-10-30", returnedAt: null, rating: null }
+];
